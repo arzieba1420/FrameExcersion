@@ -5,6 +5,7 @@ public class GroupLayoutEx extends JFrame {
     
     
     GroupLayoutEx() {
+        super("Ramka");
         this.setDefaultCloseOperation(3);
         this.setSize(400, 400);
         int height = Toolkit.getDefaultToolkit().getScreenSize().height;
